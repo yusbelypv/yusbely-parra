@@ -222,7 +222,7 @@ const Clients = () => {
 
 
      
-      <div >
+      <div>
         
         <table className="table table-bordered">
           
@@ -254,6 +254,8 @@ const Clients = () => {
                         setPhone(user?.phone);
                         abrirCerrarModal();
                       }}
+
+                      
                     >
                       Edit
                     </button>{" "}
@@ -339,7 +341,7 @@ const Clients = () => {
               >
                 {editUser ? "Editar" : "Agregar"}
               </button> 
-              <button className={styles.btn} onClick={()=>abrirCerrarModal()}>Cancelar</button>
+              <button className={styles.btn} onClick={()=>abrirCerrarModal()}>Cerrar</button>
             </div>
           </div>
         ) : null} 
